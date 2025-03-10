@@ -249,7 +249,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61f2dcad475bb40a7acdf75e67a1c2cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circleSpriteRenderer: {fileID: 1867208737}
+  particleSystem: {fileID: 413926478}
+  circleTransform: {fileID: 1867208738}
+  spawnRate: 10
+--- !u!198 &413926478 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7287474973427098066, guid: 3dfcab181cc6d451c951a510fdec498d, type: 3}
+  m_PrefabInstance: {fileID: 413926473}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
