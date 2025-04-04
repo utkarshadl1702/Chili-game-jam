@@ -205,3 +205,134 @@ Received Import Request.
 Start importing Assets/ExternalAssets/Plants using Guid(2b8a1c8fab9d14b6d94a8d9d632006e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4778a85cec2e98a563cb15ae055cfff1') in 0.002489 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x31f3ff000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.769 seconds
+Refreshing native plugins compatible for Editor in 5.67 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for VisionOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.176 seconds
+Domain Reload Profiling: 1946ms
+	BeginReloadAssembly (342ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (33ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (478ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (46ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1176ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (472ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (121ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (107.0 KB). Loaded Objects now: 4874.
+Memory consumption went from 171.9 MB to 171.8 MB.
+Total: 4.257208 ms (FindLiveObjects: 0.178833 ms CreateObjectMapping: 0.115042 ms MarkObjects: 3.874000 ms  DeleteObjects: 0.087542 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1148.191478 seconds.
+  path: Assets/Waldemarst
+  artifactKey: Guid(e6b7d78c5dff14cfcbc8a254f4278faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst using Guid(e6b7d78c5dff14cfcbc8a254f4278faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181c3ea5e49b94281ada7ec7faeeffbc') in 0.070889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.164320 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage
+  artifactKey: Guid(699b139d106114f24ad4b1e7be5035ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage using Guid(699b139d106114f24ad4b1e7be5035ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e8b9991e1e13a10c11e6c688916057') in 0.001962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.145227 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Scenes
+  artifactKey: Guid(9b6dce7f9ef7d401691235744f82728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Scenes using Guid(9b6dce7f9ef7d401691235744f82728f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bee6a9a1d92176031094e3fda3a218b') in 0.001910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.912620 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Scenes/Showcase.unity
+  artifactKey: Guid(ee7b3af939accaf96ac3ac92d34a377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Scenes/Showcase.unity using Guid(ee7b3af939accaf96ac3ac92d34a377b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f578261036ffcb952a4e8ca807b3a65') in 0.002080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.666320 seconds.
+  path: Assets/Waldemarst/JapaneseGardenPackage/Scenes/JapaneseGarden.unity
+  artifactKey: Guid(80a26d31b4c6248999e489e0894e9395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Waldemarst/JapaneseGardenPackage/Scenes/JapaneseGarden.unity using Guid(80a26d31b4c6248999e489e0894e9395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2191c86d269d2d6102b558b7c487edc5') in 0.004156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 855.622319 seconds.
+  path: Assets/ExternalAssets/tEXTURE
+  artifactKey: Guid(a84634f8207a5427d992c6e97c8c536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/tEXTURE using Guid(a84634f8207a5427d992c6e97c8c536b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993e1daab838acae36bf7865d2985dd8') in 0.020570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 74.266315 seconds.
+  path: Assets/ExternalAssets/tEXTURE/Materials
+  artifactKey: Guid(e7a16819c53f54feb8cad5a4a6369eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/tEXTURE/Materials using Guid(e7a16819c53f54feb8cad5a4a6369eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13d29c8f35232e366bc91ab97627609') in 0.014646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2230.534099 seconds.
+  path: Assets/ExternalAssets/tEXTURE/bot color.jpg
+  artifactKey: Guid(7a0d057df3c5c496b8fb87454f78ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalAssets/tEXTURE/bot color.jpg using Guid(7a0d057df3c5c496b8fb87454f78ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2e4936379537373ff306cf453b8653') in 1.438273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
