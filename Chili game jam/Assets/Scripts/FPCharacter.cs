@@ -12,7 +12,7 @@ public class FPCharacter : MonoBehaviour
     void Start()
     {
         // turn off the cursor
-        Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
